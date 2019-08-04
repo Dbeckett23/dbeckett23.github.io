@@ -607,7 +607,7 @@
 	{
 		text-align: center;
 	}
-
+	#portfolio a,
 	#portfolio .title h2
 	{
 		color: rgba(0,0,0,0.8);
@@ -651,6 +651,17 @@
 	{
 		overflow: hidden;
 		padding: 8em 0em;
+	}
+
+	#featured a,
+	#featured .title h2 
+	{
+		color: rgba(0,0,0,0.8);
+	}
+
+	#featured .title 
+	{
+		text-align: center;
 	}
 	
 	#featured .box1,
