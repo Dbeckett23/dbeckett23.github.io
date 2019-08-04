@@ -425,12 +425,12 @@
 /* Wrapper                                                                       */
 /*********************************************************************************/
 
-	#wrapper1
+	#experience-wrapper
 	{
 		background: #EDEDED;
 	}
 
-	#wrapper2
+	#about-me-wrapper
 	{
 		background: #EDEDED;
 	}
@@ -450,10 +450,10 @@
 	}
 
 /*********************************************************************************/
-/* Welcome                                                                       */
+/* work-experience                                                                       */
 /*********************************************************************************/
 
-	#welcome
+	#work-experience
 	{
 		overflow: hidden;
 		padding: 8em 0em;
@@ -461,23 +461,23 @@
 		color: rgba(0,0,0,0.5);
 	}
 	
-	#welcome .content
+	#work-experience .content
 	{
 		padding: 0em 8em;
 	}
 
-	#welcome .title
+	#work-experience .title
 	{
 		text-align: center;
 	}
 
-	#welcome .title h2
+	#work-experience .title h2
 	{
 		color: rgba(0,0,0,0.8);
 	}
 	
-	#welcome a,
-	#welcome strong
+	#work-experience a,
+	#work-experience strong
 	{
 		color: rgba(0,0,0,0.8);
 	}
@@ -522,10 +522,10 @@
 	}
 
 /*********************************************************************************/
-/* Copyright                                                                     */
+/* Contact                                                                     */
 /*********************************************************************************/
 
-	#copyright
+	#contact
 	{
 		overflow: hidden;
 		padding: 5em 0em;
@@ -533,7 +533,7 @@
 		text-align: center;
 	}
 	
-	#copyright p
+	#contact p
 	{
 		letter-spacing: 0.20em;
 		text-align: center;
@@ -542,7 +542,7 @@
 		color: rgba(255,255,255,0.3);
 	}
 	
-	#copyright a
+	#contact a
 	{
 		text-decoration: none;
 		color: rgba(255,255,255,0.6);
