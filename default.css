@@ -307,13 +307,13 @@
 		font-size: 2.8em;
 		color: rgba(255,255,255,0.9);
 	}
-	
+
 	.title .byline
 	{
 		letter-spacing: 0.15em;
 		text-transform: uppercase;
 		font-weight: 400;
-		font-size: 1.1em;
+		font-size: 1.0em;
 		color: #6F6F6F;
 	}
 
@@ -480,6 +480,28 @@
 	#work-experience strong
 	{
 		color: rgba(0,0,0,0.8);
+	}
+
+
+/*********************************************************************************/
+/* Position	                                                                   	 */
+/*********************************************************************************/
+	.position-company {
+		font-size: 2.25em;
+		color: #ff6816;
+		text-align: left;
+	}
+
+	.position-title{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 350;
+		font-size: .5em;
+		color: #6F6F6F;
+		text-align: left;
+	}
+	.position-description {
+		text-align: left;
 	}
 
 /*********************************************************************************/
