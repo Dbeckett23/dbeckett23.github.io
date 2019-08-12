@@ -299,6 +299,7 @@
 
 	.title
 	{
+		margin-top: 0em;
 		margin-bottom: 3em;
 	}
 	
@@ -446,11 +447,59 @@
 	{
 		overflow: hidden;
 		padding: 8em 0em;
-		background: #E74E59;
+		background: #FFF;
 	}
 
 /*********************************************************************************/
-/* work-experience                                                                       */
+/* Education                                                                     */
+/*********************************************************************************/
+	#education {
+		overflow: hidden;
+		text-align: center;
+		color: rgba(0,0,0,0.5);
+	}
+
+	#education .content
+	{
+		padding: 0em 8em;
+	}
+
+	#education a {
+		color: rgba(0,0,0,0.8);
+	}
+
+	#education .title {
+		text-align: center;
+	}
+
+	#education .title h2 {
+		color: rgba(0,0,0,0.8);
+	}
+
+/*********************************************************************************/
+/* School                                                                        */
+/*********************************************************************************/
+	.school {
+		margin-bottom: 0em;
+		text-align: left;
+	}
+
+	.school .name {
+		font-size: 2.25em;
+		color: #ff6816;
+	}
+
+	.school .study {
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: .80em;
+		color: #6F6F6F;
+	}
+
+
+/*********************************************************************************/
+/* work-experience                                                               */
 /*********************************************************************************/
 
 	#work-experience
@@ -484,26 +533,35 @@
 
 
 /*********************************************************************************/
-/* Position	                                                                   	 */
+/* Company	                                                                   	 */
 /*********************************************************************************/
-	.position-company {
+
+	.company {
+		margin-bottom: 0em;
+		text-align: left;
+	}
+
+	.company .name {
 		font-size: 2.25em;
 		color: #ff6816;
-		text-align: left;
 	}
 
-	.position-title{
+	.company .position {
 		letter-spacing: 0.15em;
 		text-transform: uppercase;
-		font-weight: 350;
-		font-size: .5em;
+		font-weight: 400;
+		font-size: .80em;
 		color: #6F6F6F;
-		text-align: left;
-	}
-	.position-description {
-		text-align: left;
 	}
 
+	.company .year {
+		color: #6F6F6F;
+	}
+
+	.company .list {
+		list-style: disc;
+		padding-left: 2em;
+	}
 /*********************************************************************************/
 /* Page                                                                          */
 /*********************************************************************************/
