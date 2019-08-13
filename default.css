@@ -51,6 +51,10 @@
 		text-decoration: none;
 	}
 	
+	/* Prevents the menu items from overlapping with the headers when clicked */
+	.anchor {
+		padding-top: 4%;
+	}
 
 	.container
 	{
@@ -399,20 +403,27 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		outline: 0;
-		color: #FFF;
+		color: #ff6816;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
+		color: #8DCB89
 	}
 	
 	#menu .current_page_item a
 	{
+		/* TODO: Change background color of current page item */
 		background: #ff6816;
 		border-radius: 8px;
 		color: #FFF;
 	}
 	
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 1200px;
+	}
 
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -436,14 +447,14 @@
 		background: #EDEDED;
 	}
 
-	#wrapper3
+	#portfolio-wrapper
 	{
 		overflow: hidden;
 		padding: 8em 0em;
 		background: #FFF;
 	}
 	
-	#wrapper4
+	#education-wrapper
 	{
 		overflow: hidden;
 		padding: 8em 0em;
@@ -776,4 +787,3 @@
 	{
 		padding-right: 0.50em;
 	}
-	
