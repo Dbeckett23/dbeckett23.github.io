@@ -449,15 +449,11 @@
 
 	#portfolio-wrapper
 	{
-		overflow: hidden;
-		padding: 8em 0em;
 		background: #FFF;
 	}
 	
 	#education-wrapper
 	{
-		overflow: hidden;
-		padding: 8em 0em;
 		background: #FFF;
 	}
 
@@ -466,6 +462,7 @@
 /*********************************************************************************/
 	#education {
 		overflow: hidden;
+		padding: 8em 0em;
 		text-align: center;
 		color: rgba(0,0,0,0.5);
 	}
@@ -668,6 +665,10 @@
 
 	#portfolio
 	{
+		overflow: hidden;
+		padding: 8em 0em;
+		text-align: center;
+		color: rgba(0,0,0,0.5);
 	}
 	
 	#portfolio .pbox1,
