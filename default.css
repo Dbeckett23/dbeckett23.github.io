@@ -389,6 +389,8 @@
 	#menu ul
 	{
 		text-align: center;
+		margin-block-start: 0em;
+		margin-block-end: 0em;
 	}
 	
 	#menu li
