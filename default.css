@@ -330,7 +330,8 @@
 	{
 		overflow: hidden;
 		padding: 5em 0em;
-		background: #8DCB89 url(images/header.jpg) no-repeat center;
+		background: #333333;
+		/* background: #333333 url(images/header.jpg) no-repeat center; */
 		background-size: cover;
 	}
 
@@ -377,9 +378,12 @@
 /*********************************************************************************/
 /* Menu                                                                          */
 /*********************************************************************************/
-
+	#menu-wrapper {
+		background: #333333;
+	}
 	#menu
 	{
+		background: #333333;
 	}
 	
 	#menu ul
@@ -422,7 +426,7 @@
 	.sticky {
 		position: fixed;
 		top: 0;
-		width: 1200px;
+		width: 100%;
 	}
 
 /*********************************************************************************/
