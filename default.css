@@ -1,5 +1,6 @@
 	html, body
 	{
+		width: 100%;;
 		height: 100%;
 	}
 	
@@ -59,7 +60,7 @@
 	.container
 	{
 		margin: 0px auto;
-		width: 1200px;
+		width: 100%;
 	}
 	
 
@@ -794,3 +795,9 @@
 	{
 		padding-right: 0.50em;
 	}
+
+	/* * {
+		background: #000 !important;
+		color: #0f0 !important;
+		outline: solid #f00 1px !important;
+	} */
