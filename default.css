@@ -60,7 +60,7 @@
 	.container
 	{
 		margin: 0px auto;
-		width: 100%;
+		width: 75%;
 	}
 	
 
@@ -766,7 +766,8 @@
 	#featured .box1,
 	#featured .box2
 	{
-		width: 570px;
+		display: inline-block;
+		width: 45%;
 		color: rgba(0,0,0,0.6);
 	}
 	
